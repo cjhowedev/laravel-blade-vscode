@@ -1,0 +1,26 @@
+{
+    "name": "laravel-blade",
+    "displayName": "laravel-blade",
+    "description": "Laravel blade syntax highlighting",
+    "version": "0.0.1",
+    "publisher": "cjhowe7",
+    "engines": {
+        "vscode": "^1.18.0"
+    },
+    "categories": [
+        "Languages"
+    ],
+    "contributes": {
+        "languages": [{
+            "id": "blade",
+            "aliases": ["blade", "blade"],
+            "extensions": [".blade.php"],
+            "configuration": "./language-configuration.json"
+        }],
+        "grammars": [{
+            "language": "blade",
+            "scopeName": "text.html.php.blade",
+            "path": "./syntaxes/blade.tmLanguage.json"
+        }]
+    }
+}
