@@ -2,7 +2,7 @@
     "name": "laravel-blade",
     "displayName": "laravel-blade",
     "description": "Laravel blade syntax highlighting",
-    "version": "1.1.0",
+    "version": "1.1.1",
     "publisher": "cjhowe7",
     "icon": "blade.png",
     "homepage": "https://github.com/cjhowe7/laravel-blade-vscode",
