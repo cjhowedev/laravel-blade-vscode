@@ -4,6 +4,15 @@
     "description": "Laravel blade syntax highlighting",
     "version": "1.0.0",
     "publisher": "cjhowe7",
+    "homepage": "https://github.com/cjhowe7/laravel-blade-vscode",
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/cjhowe7/laravel-blade-vscode"
+    },
+    "bugs": {
+        "url": "https://github.com/cjhowe7/laravel-blade-vscode/issues",
+        "email": "cjhowe7@gmail.com"
+    },
     "engines": {
         "vscode": "^1.18.0"
     },
