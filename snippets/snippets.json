@@ -22,7 +22,7 @@
     "body": [
       "@if ($1)",
       "    $2",
-      "@if"
+      "@endif"
     ],
     "description": "if"
   }
