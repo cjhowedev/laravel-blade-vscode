@@ -1,51 +1,44 @@
 {
-    "name": "laravel-blade",
-    "displayName": "laravel-blade",
-    "description": "Laravel blade syntax highlighting",
-    "version": "1.1.1",
-    "publisher": "cjhowe7",
-    "icon": "blade.png",
-    "homepage": "https://github.com/cjhowe7/laravel-blade-vscode",
-    "repository": {
-        "type": "git",
-        "url": "https://github.com/cjhowe7/laravel-blade-vscode"
-    },
-    "bugs": {
-        "url": "https://github.com/cjhowe7/laravel-blade-vscode/issues",
-        "email": "cjhowe7@gmail.com"
-    },
-    "engines": {
-        "vscode": "^1.18.0"
-    },
-    "categories": [
-        "Languages"
+  "name": "laravel-blade",
+  "displayName": "laravel-blade",
+  "description": "Laravel blade syntax highlighting",
+  "version": "1.1.2",
+  "publisher": "cjhowe7",
+  "icon": "blade.png",
+  "homepage": "https://github.com/cjhowe7/laravel-blade-vscode",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/cjhowe7/laravel-blade-vscode"
+  },
+  "bugs": {
+    "url": "https://github.com/cjhowe7/laravel-blade-vscode/issues",
+    "email": "cjhowe7@gmail.com"
+  },
+  "engines": {
+    "vscode": "^1.18.0"
+  },
+  "categories": ["Languages"],
+  "contributes": {
+    "languages": [
+      {
+        "id": "blade",
+        "aliases": ["blade", "blade"],
+        "extensions": [".blade.php"],
+        "configuration": "./language-configuration.json"
+      }
     ],
-    "contributes": {
-        "languages": [
-            {
-                "id": "blade",
-                "aliases": [
-                    "blade",
-                    "blade"
-                ],
-                "extensions": [
-                    ".blade.php"
-                ],
-                "configuration": "./language-configuration.json"
-            }
-        ],
-        "grammars": [
-            {
-                "language": "blade",
-                "scopeName": "text.html.php.blade",
-                "path": "./syntaxes/blade.tmLanguage.json"
-            }
-        ],
-        "snippets": [
-            {
-                "language": "blade",
-                "path": "./snippets/snippets.json"
-            }
-        ]
-    }
+    "grammars": [
+      {
+        "language": "blade",
+        "scopeName": "text.html.php.blade",
+        "path": "./syntaxes/blade.tmLanguage.json"
+      }
+    ],
+    "snippets": [
+      {
+        "language": "blade",
+        "path": "./snippets/snippets.json"
+      }
+    ]
+  }
 }
